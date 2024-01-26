@@ -1,6 +1,6 @@
 # wordtm
 
-An NLP package for topic modeling on the Holy Scripture from low-code to pro-code
+An NLP package for topic modeling on the Holy Scripture and other text from low-code to pro-code
 
 ## Installation
 
@@ -50,7 +50,4 @@ of the MIT license.
 
 ## Credits
 
-`wordtm` was created with 
-[`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and 
-the `py-pkgs-cookiecutter` 
-[template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+`wordtm` was created under the guidance of Jehovah, the Lord.
