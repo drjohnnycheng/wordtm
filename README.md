@@ -2,6 +2,10 @@
 
 An NLP package for topic modeling on the Holy Scripture and other text from low-code to pro-code
 
+## Reference
+
+https://pypi.org/project/wordtm/0.4.0/
+
 ## Installation
 
 ```shell
