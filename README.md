@@ -2,10 +2,6 @@
 
 An NLP package for topic modeling on the Holy Scripture and other text from low-code to pro-code
 
-## Reference
-
-https://pypi.org/project/wordtm/0.4.5/
-
 ## Installation
 
 ```shell
@@ -19,11 +15,19 @@ $ pip install wordtm
 ```python
 from wordtm import meta, util, ta, tm, viz, pivot, quot
 
-from importlib_metadata import version
-print(version('wordtm'))
+import wordtm
+print(wordtm.__version__)
+```
 
+### meta Submodule
+```python
 print(meta.get_module_info())
 
+print(meta.get_module_info(detailed=True))
+```
+
+### util Submodule
+```python
 df = util.load_word()
 cdf = util.load_word('cuv.csv')
 
@@ -33,11 +37,20 @@ cdf.head()
 
 rom = util.extract2(df, 'Rom 8')
 crom = util.extract2(cdf, 'Rom 8')
+```
 
+### ta Submodule
+```python
 ta.summary(rom, code=True)
+```
 
+### viz Submodule
+```python
 viz.chi_wordcloud(cdf)
+```
 
+### pivot Submodule
+```python
 pivot.stat(cdf, chi=True)
 ```
 
